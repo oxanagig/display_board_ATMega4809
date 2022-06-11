@@ -7432,6 +7432,10 @@ Created by Upverter.com</description>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="VBAT"/>
+<part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1uF"/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1uF"/>
+<part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7626,8 +7630,8 @@ Created by Upverter.com</description>
 <attribute name="NAME" x="204.47" y="66.04" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="204.47" y="63.5" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="P+5" gate="1" x="187.96" y="60.96" smashed="yes">
-<attribute name="VALUE" x="185.42" y="55.88" size="1.778" layer="96" rot="R90"/>
+<instance part="P+5" gate="1" x="162.56" y="60.96" smashed="yes">
+<attribute name="VALUE" x="167.64" y="63.5" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="+3V2" gate="G$1" x="238.76" y="66.04" smashed="yes">
 <attribute name="VALUE" x="241.3" y="66.04" size="1.778" layer="96"/>
@@ -7707,6 +7711,20 @@ Created by Upverter.com</description>
 </instance>
 <instance part="P+3" gate="1" x="-20.32" y="-91.44" smashed="yes">
 <attribute name="VALUE" x="-12.7" y="-91.44" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C9" gate="G$1" x="238.76" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="241.05" y="52.09" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
+<attribute name="VALUE" x="236.46" y="52.09" size="1.27" layer="96" font="vector" rot="R270" align="center"/>
+</instance>
+<instance part="GND3" gate="1" x="238.76" y="45.72" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="241.3" y="43.18" size="1.778" layer="96" rot="MR0"/>
+</instance>
+<instance part="C10" gate="G$1" x="162.56" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="164.85" y="54.63" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
+<attribute name="VALUE" x="160.26" y="54.63" size="1.27" layer="96" font="vector" rot="R270" align="center"/>
+</instance>
+<instance part="GND16" gate="1" x="162.56" y="48.26" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="165.1" y="45.72" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -7846,6 +7864,14 @@ Created by Upverter.com</description>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="238.76" y1="-38.1" x2="218.44" y2="-38.1" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="GND16" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -7875,7 +7901,9 @@ Created by Upverter.com</description>
 <segment>
 <pinref part="U3" gate="G$1" pin="VIN"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
-<wire x1="198.12" y1="58.42" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="58.42" x2="162.56" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<junction x="162.56" y="58.42"/>
 </segment>
 <segment>
 <pinref part="X1" gate="-2" pin="S"/>
@@ -8210,6 +8238,7 @@ Created by Upverter.com</description>
 <wire x1="238.76" y1="55.88" x2="238.76" y2="63.5" width="0.1524" layer="91"/>
 <junction x="238.76" y="55.88"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>

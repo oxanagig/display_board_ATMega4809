@@ -7361,26 +7361,26 @@ Created by Upverter.com</description>
 </class>
 </classes>
 <parts>
-<part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="100"/>
-<part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="0"/>
-<part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="100"/>
-<part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="0"/>
-<part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="100"/>
-<part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="100"/>
-<part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10k"/>
-<part name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10k"/>
-<part name="R10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10k"/>
-<part name="R11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10k"/>
+<part name="R1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241673/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="100"/>
+<part name="R2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241666/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="0"/>
+<part name="R3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241671/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="100"/>
+<part name="R4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241661/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="0"/>
+<part name="R5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241670/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="100"/>
+<part name="R6" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241669/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="100"/>
+<part name="R8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241413/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="10k"/>
+<part name="R9" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241643/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="10k"/>
+<part name="R10" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241646/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="10k"/>
+<part name="R11" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241659/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="10k"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="10k"/>
+<part name="R12" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241699/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="10k"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J2" library="SamacSys_Parts" deviceset="LD09P33E4GV00LF" device=""/>
+<part name="J2" library="SamacSys_Parts" deviceset="LD09P33E4GV00LF" device="" override_package3d_urn="urn:adsk.eagle:package:36241370/2" override_package_urn="urn:adsk.eagle:footprint:36241371/1"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="VBAT"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
@@ -7388,38 +7388,38 @@ Created by Upverter.com</description>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+3_3V"/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R16" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="200k"/>
+<part name="R16" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241709/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="200k"/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="R17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="3.3K"/>
-<part name="R18" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="3.3K"/>
-<part name="R19" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="3.3K"/>
-<part name="R20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" value="3.3K"/>
+<part name="R17" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241681/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="3.3K"/>
+<part name="R18" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241685/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="3.3K"/>
+<part name="R19" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241676/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="3.3K"/>
+<part name="R20" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:6240565/1" override_package3d_urn="urn:adsk.eagle:package:36241675/2" override_package_urn="urn:adsk.eagle:footprint:6239919/1" value="3.3K"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J3" library="Sullins - NREC005SABC-M30RC" deviceset="SULLINS_NREC005SABC-M30RC" device="SULLINS_NREC005SABC-M30RC_0_0"/>
-<part name="SW1" library="TE Connectivity - FSM2JSMAA" deviceset="TE_CONNECTIVITY_FSM2JSMAA" device="TE_CONNECTIVITY_FSM2JSMAA_0_0"/>
-<part name="SW2" library="TE Connectivity - FSM2JSMAA" deviceset="TE_CONNECTIVITY_FSM2JSMAA" device="TE_CONNECTIVITY_FSM2JSMAA_0_0"/>
-<part name="SW3" library="TE Connectivity - FSM2JSMAA" deviceset="TE_CONNECTIVITY_FSM2JSMAA" device="TE_CONNECTIVITY_FSM2JSMAA_0_0"/>
-<part name="SW4" library="TE Connectivity - FSM2JSMAA" deviceset="TE_CONNECTIVITY_FSM2JSMAA" device="TE_CONNECTIVITY_FSM2JSMAA_0_0"/>
-<part name="BAT1" library="Keystone - 2479" deviceset="KEYSTONE_2479" device="KEYSTONE_2479_0_0"/>
-<part name="BAT2" library="Keystone - 2479" deviceset="KEYSTONE_2479" device="KEYSTONE_2479_0_0"/>
+<part name="J3" library="Sullins - NREC005SABC-M30RC" deviceset="SULLINS_NREC005SABC-M30RC" device="SULLINS_NREC005SABC-M30RC_0_0" override_package3d_urn="urn:adsk.eagle:package:36242012/2" override_package_urn="urn:adsk.eagle:footprint:36242014/1"/>
+<part name="SW1" library="TE Connectivity - FSM2JSMAA" deviceset="TE_CONNECTIVITY_FSM2JSMAA" device="TE_CONNECTIVITY_FSM2JSMAA_0_0" override_package3d_urn="urn:adsk.eagle:package:36241754/2" override_package_urn="urn:adsk.eagle:footprint:36241755/1"/>
+<part name="SW2" library="TE Connectivity - FSM2JSMAA" deviceset="TE_CONNECTIVITY_FSM2JSMAA" device="TE_CONNECTIVITY_FSM2JSMAA_0_0" override_package3d_urn="urn:adsk.eagle:package:36241875/2" override_package_urn="urn:adsk.eagle:footprint:36241876/1"/>
+<part name="SW3" library="TE Connectivity - FSM2JSMAA" deviceset="TE_CONNECTIVITY_FSM2JSMAA" device="TE_CONNECTIVITY_FSM2JSMAA_0_0" override_package3d_urn="urn:adsk.eagle:package:36241891/2" override_package_urn="urn:adsk.eagle:footprint:36241892/1"/>
+<part name="SW4" library="TE Connectivity - FSM2JSMAA" deviceset="TE_CONNECTIVITY_FSM2JSMAA" device="TE_CONNECTIVITY_FSM2JSMAA_0_0" override_package3d_urn="urn:adsk.eagle:package:36241912/2" override_package_urn="urn:adsk.eagle:footprint:36241913/1"/>
+<part name="BAT1" library="Keystone - 2479" deviceset="KEYSTONE_2479" device="KEYSTONE_2479_0_0" override_package3d_urn="urn:adsk.eagle:package:36241992/2" override_package_urn="urn:adsk.eagle:footprint:36241993/1"/>
+<part name="BAT2" library="Keystone - 2479" deviceset="KEYSTONE_2479" device="KEYSTONE_2479_0_0" override_package3d_urn="urn:adsk.eagle:package:36242031/2" override_package_urn="urn:adsk.eagle:footprint:36242032/1"/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="VBAT"/>
-<part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10uF"/>
+<part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" override_package3d_urn="urn:adsk.eagle:package:36241719/2" override_package_urn="urn:adsk.eagle:footprint:6239686/1" value="10uF"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10uF"/>
-<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1uF"/>
-<part name="U5" library="SamacSys_Parts" deviceset="ATMEGA4809-AU" device=""/>
-<part name="U2" library="SamacSys_Parts" deviceset="MCP1703AT-5002E_CB" device=""/>
+<part name="C2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" override_package3d_urn="urn:adsk.eagle:package:36241718/2" override_package_urn="urn:adsk.eagle:footprint:6239686/1" value="10uF"/>
+<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" override_package3d_urn="urn:adsk.eagle:package:36241723/2" override_package_urn="urn:adsk.eagle:footprint:36241724/1" value="0.1uF"/>
+<part name="U5" library="SamacSys_Parts" deviceset="ATMEGA4809-AU" device="" override_package3d_urn="urn:adsk.eagle:package:36241377/2" override_package_urn="urn:adsk.eagle:footprint:36241378/1"/>
+<part name="U2" library="SamacSys_Parts" deviceset="MCP1703AT-5002E_CB" device="" override_package3d_urn="urn:adsk.eagle:package:36241299/2" override_package_urn="urn:adsk.eagle:footprint:36241300/1"/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U1" library="SamacSys_Parts" deviceset="LSF0102DCTR" device=""/>
-<part name="U3" library="SamacSys_Parts" deviceset="MCP1801T-3302I_OT" device=""/>
+<part name="U1" library="SamacSys_Parts" deviceset="LSF0102DCTR" device="" override_package3d_urn="urn:adsk.eagle:package:36241307/2" override_package_urn="urn:adsk.eagle:footprint:36241309/1"/>
+<part name="U3" library="SamacSys_Parts" deviceset="MCP1801T-3302I_OT" device="" override_package3d_urn="urn:adsk.eagle:package:36241386/2" override_package_urn="urn:adsk.eagle:footprint:36241387/1"/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device="" value="+3_3V"/>
-<part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1uF"/>
-<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1uF"/>
-<part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1uF"/>
-<part name="C7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10uF"/>
-<part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" value="10uF"/>
+<part name="C4" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" override_package3d_urn="urn:adsk.eagle:package:36241419/2" override_package_urn="urn:adsk.eagle:footprint:36241420/1" value="0.1uF"/>
+<part name="C5" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" override_package3d_urn="urn:adsk.eagle:package:36241729/2" override_package_urn="urn:adsk.eagle:footprint:36241730/1" value="0.1uF"/>
+<part name="C6" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" override_package3d_urn="urn:adsk.eagle:package:36241734/2" override_package_urn="urn:adsk.eagle:footprint:36241735/1" value="0.1uF"/>
+<part name="C7" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" override_package3d_urn="urn:adsk.eagle:package:36241418/2" override_package_urn="urn:adsk.eagle:footprint:6239686/1" value="10uF"/>
+<part name="C8" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:6240337/1" override_package3d_urn="urn:adsk.eagle:package:36241727/2" override_package_urn="urn:adsk.eagle:footprint:6239686/1" value="10uF"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -7432,9 +7432,9 @@ Created by Upverter.com</description>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device="" value="VBAT"/>
-<part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1uF"/>
+<part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" override_package3d_urn="urn:adsk.eagle:package:36241740/2" override_package_urn="urn:adsk.eagle:footprint:36241741/1" value="0.1uF"/>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" value="0.1uF"/>
+<part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="_0603MP" override_package3d_urn="urn:adsk.eagle:package:36241736/2" override_package_urn="urn:adsk.eagle:footprint:36241738/1" value="0.1uF"/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -8367,6 +8367,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="9.0" severity="warning">
 Since Version 9.0, EAGLE supports the align property for labels. 
